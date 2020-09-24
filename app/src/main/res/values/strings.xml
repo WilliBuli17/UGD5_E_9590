@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UGD5_E_9590</string>
+    <string name="whalecome_text">Whalecome</string>
+    <string name="log_out_text">Log Out</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="sign_in_text">Sign In</string>
+    <string name="enter_your_password_text">Enter Your Password...</string>
+    <string name="enter_your_email_text">Enter Your Email...</string>
+</resources>
