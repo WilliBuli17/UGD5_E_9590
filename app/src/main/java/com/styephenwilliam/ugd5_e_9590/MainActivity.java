@@ -152,8 +152,7 @@ public class MainActivity extends AppCompatActivity {
                                    "Sign Up Failed",
                                    Toast.LENGTH_SHORT).show();
                        }
-
-                        clearText();
+                       clearText();
                        progressDialog.dismiss();
                     }
                 });
