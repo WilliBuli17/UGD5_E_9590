@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
                             Toast.makeText(MainActivity.this,
-                                    "Successfully Log In",
+                                    "Sign In Successfully",
                                     Toast.LENGTH_SHORT).show();
 
                             addNotification();
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
                             finish();
                         } else{
                             Toast.makeText(MainActivity.this,
-                                    "Log In Fail",
+                                    "Sign In Failed",
                                     Toast.LENGTH_SHORT).show();
                         }
                         clearText();
@@ -145,11 +145,11 @@ public class MainActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                        if (task.isSuccessful()){
                            Toast.makeText(MainActivity.this,
-                                   "Successfully Registerred",
+                                   "Sign Up Successfully",
                                    Toast.LENGTH_SHORT).show();
                        } else{
                            Toast.makeText(MainActivity.this,
-                                   "Sign Up Fail",
+                                   "Sign Up Failed",
                                    Toast.LENGTH_SHORT).show();
                        }
 
