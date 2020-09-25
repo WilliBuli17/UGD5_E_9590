@@ -26,6 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:id="@+id/input_email_layout"
+            app:endIconMode="clear_text"
             style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
