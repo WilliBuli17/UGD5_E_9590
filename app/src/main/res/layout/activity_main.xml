@@ -75,7 +75,7 @@
             android:layout_height="50dp"
             android:id="@+id/btnSignIn"
             android:text="@string/sign_in_text"
-            android:backgroundTint="#1AC621"
+            android:backgroundTint="#28A32D"
             android:layout_marginHorizontal="15dp" />
     </LinearLayout>
 </LinearLayout>
