@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
                     .show();
             password.setError("Enter Your Password");
             return;
-        } else if(p.length()<4){
+        } else if(p.length()<6){
             Toast.makeText(MainActivity.this, "Password Lenght Should Be >= 6", Toast.LENGTH_SHORT)
                     .show();
             password.setError("Password Lenght Should Be >= 6");
